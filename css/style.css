@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.enc-select, .ssid, .pass {
+    width: 100%;
+    padding: 10px;
+    margin: 7.56px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.generate {
+    width: 100%;
+    padding: 10px;
+    margin: 7.56px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.enc-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.header {
+    font-weight: bolder;
+}

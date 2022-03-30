@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/qrcode.min.js" defer></script>
+        <script src="./js/script.js" defer></script>
+        <link href="./css/style.css" rel="stylesheet">
+        <title>QRFI</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>QRFI</h1>
+        </header>
+        <div id="qrcode"></div>
+        <div class="control">
+            <select id="enc" class="enc-select">
+                <option value="">보안 유형을 선택해주세요.</option>
+                <option value="WPA">WPA</option>
+                <option value="WEP">WEP</option>
+                <option value="WPA2">WPA2-EAP</option>
+                <option value="nopass">None</option>
+            </select>
+            <input type="text" id="ssid" name="ssid" class="ssid" placeholder="SSID">
+            <input type="text" id="password" name="pass" class="pass" placeholder="Password">
+            <button class="generate">Generate</button>
+        </div>
+    </body>
+</html>
